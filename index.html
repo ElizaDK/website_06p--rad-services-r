@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!--cdn font icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <!--css style-->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/products.css">
+    <link rel="stylesheet" href="assets/css/featured.css">
+    <link rel="stylesheet" href="assets/css/service.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/responsible.css">
+    <title>B-Sands</title>
+</head>
+<body>  
+    <!--header-->
+    <header>
+
+         <!--menu sanduiche (mobile)-->
+         <div id="menu-bar" class="fas fa-bars"></div>
+         <!--final menu sanduiche-->
+
+        <a href="#" class="logo"><img src="assets/img/logomarca.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#services">serviços</a>
+            <a href="#products">planos</a>
+            <a href="#order">suporte</a>
+            
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    <!--end header-->
+
+    <!--home-->
+    <section class="home" id="home">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <span>cabeamento</span>
+                    <h3>estruturado</h3>
+                    <p>
+                        visa garantir que todo o projeto de infraestrutura seja plenamente capaz de operar por um período mínimo de 10 anos suportando, além dos processos, os servidores da rede local, a quantidade de switches, roteadores e sua extensão.
+                    </p>
+                    <a href="#" class="btn">Adquirir Serviço</a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/cable0_.png" alt="tenis nike vermelhor" class="shoe">
+                    <img src="assets/img/cable1.png" alt="tenis nike vermelhor" class="text">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>servidores e</span>
+                    <h3>firewall</h3>
+                    <p>
+                        O firewall de aplicação, também conhecido como proxy de serviços (proxy services) ou apenas proxy é uma solução de segurança que atua como intermediário entre um computador ou uma rede interna e outra rede, externa - normalmente, a internet. Geralmente instalados em servidores potentes por precisarem lidar com um grande número de solicitações, firewalls deste tipo são opções interessantes de segurança porque não permitem a comunicação direta entre origem e destino.
+                    </p>
+                    <a href="#" class="btn">Adquirir Serviço</a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/firewall1.png" alt="tenis nike azul" class="shoe">
+                    <img src="assets/img/safety2.png" alt="tenis nike azul" class="text">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>soluções em</span>
+                    <h3>segurança</h3>
+                    <p>
+                        Somos especializados no desenho, instalação, manutenção e monitorização de soluções de segurança eletrónica de última geração, fornecendo uma proteção robusta e inteligente.
+                    </p>
+                    <a href="#" class="btn">Adquirir Serviço</a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/safety.png" alt="tenis nike amarelo" class="shoe">
+                    <img src="assets/img/safety2.png" alt="tenis nike amarelo" class="text">
+                </div>
+            </div>
+        </div>
+
+        <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+        <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+        
+    </section>
+    <!--en home-->
+    
+    <!--service-->
+    <section class="service" id="services">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-laptop"></i>
+                <h3>informática</h3>
+                <p>
+                    Realizamos a manutenção em micros e servidores, remoção de vírus, rotinas de backups.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-network-wired"></i>
+                <h3>soluções em redes</h3>
+                <p>
+                    Instalação e configuração de infraestrutura de TI para sua empresa.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-binoculars"></i>
+                <h3>soluções em CFTV</h3>
+                <p>
+                    Proteja o patrimônio de sua empresa ou residência com Circuito Fechado de Televisão - CFTV.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-paste"></i>
+                <h3>consultoria e suporte</h3>
+                <p>
+                    Possui uma equipe de técnicos, analistas e consultores altamente treinados e certificados nas mais diversas áreas da TI.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--end service-->
+
+     <!-- melhores marcas-->
+     <section class="products1" id="products1">
+        <h1 class="heading">trabalhamos com as <span>melhores marcas</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="assets/img/marcas2_.png" alt="fukurama">
+                <div class="content">
+                    <h3>fukurama</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/marcas5_.png" alt="ubiquiti">
+                <div class="content">
+                    <h3>ubiquiti networks</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/marcas6_.png" alt="microsoft">
+                <div class="content">
+                    <h3>microsoft</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--end marcas-->
+
+<!------------------------------------------PLANO suporte ti-------------------------------------------------------->
+    <!--products-->
+    <section class="products" id="products">
+        <h1 class="heading">SUPORTE EM TI  <span>planos 2021</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-medal"></i>
+                <div class="content">
+                    <h3 class="a">Aluminium</h3>
+                    <h4>Até 8 Equipamentos</h4>
+                    <ul>
+                        <li>Preventiva Remoto</li> 
+                        <li>Preventiva Presencial (1)</li>
+                        <li>Acesso Remoto Ilimitado</li>
+                        <li>Consultoria Limitada</li>
+                        <li>Descontos de até <span>10% </span> em serviços e novas Implantações</li>
+                    </ul>
+                    <div class="price">€35.99  <span>€39.99</span> mensal</div>
+                    
+                    <a href="#" class="btn">adquirir plano</a>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-medal"></i>
+                <div class="content">
+                    <h3 class="m">Mercury</h3>
+                    <h4>Até 13 Equipamentos</h4>
+                    <ul>
+                        <li>Preventiva Remoto</li> 
+                        <li>Preventiva Presencial (3)</li>
+                        <li>Acesso Remoto Ilimitado</li>
+                        <li>Consultoria Ilimitada</li>
+                        <li>Descontos de até <span>20% </span> em serviços e novas Implantações</li>
+                    </ul>
+                    <div class="price">€45.99 <span>€59.99</span> mensal</div>
+                    
+                    <a href="#" class="btn">adquirir plano</a>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-medal"></i>
+                <div class="content">
+                    <h3 class="s">Silver</h3>
+                    <h4>Até 22 Equipamentos</h4>
+                    <ul>
+                        <li>Preventiva Remoto</li> 
+                        <li>Preventiva Presencial (5)</li>
+                        <li>Acesso Remoto Ilimitado</li>
+                        <li>Consultoria Ilimitada</li>
+                        <li>Descontos de até <span>30% </span> em serviços e novas Implantações</li>
+                    </ul>
+                    <div class="price">€55.99 <span>€79.99</span> mensal</div>
+                    
+                    <a href="#" class="btn">adquirir plano</a>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-medal"></i>
+                <div class="content">
+                    <h3 class="g">Gold</h3>
+                    <h4>Até 42 Equipamentos</h4>
+                    <ul>
+                        <li>Preventiva Remoto</li> 
+                        <li>Preventiva Presencial (8)</li>
+                        <li>Acesso Remoto Ilimitado</li>
+                        <li>Consultoria Limitada</li>
+                        <li>Descontos de até <span>40% </span> em serviços e novas Implantações</li>
+                    </ul>
+                    <div class="price">€65.99 <span>€109.99</span> mensal</div>
+                    
+                    <a href="#" class="btn">adquirir plano</a>
+                </div>
+            </div>
+            
+           
+        </div>
+    </section>
+
+<!------------------------------------------PLANO SUPORTE EM SERVIDORES-------------------------------------------------------->
+    <section class="products" id="products">
+        <h1 class="heading">SUPORTE EM SERVIDORES <span>planos 2021</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-medal"></i>
+                <div class="content">
+                    <h3>Firewall</h3>
+                    
+                    <ul>
+                        <li>Load Balance</li> 
+                        <li>Controle De Acesso</li>
+                        <li>Relatórios De Acesso</li>
+                        <li>Gerenciamento De Banda</li>
+                        <li>Descontos de até <span>10% </span> em serviços e novas Implantações</li>
+                    </ul>
+                    <div class="price">€35.99 <span>€39.99</span> mensal</div>
+                    
+                    <a href="#" class="btn">adquirir plano</a>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-medal"></i>
+                <div class="content">
+                    <h3>File Server</h3>
+                    
+                    <ul>
+                        <li>AD</li> 
+                        <li>DNS</li>
+                        <li>Permissões</li>
+                        <li>Compartilhamentos</li>
+                        <li>Descontos de até <span>10% </span> em serviços e novas Implantações</li>
+                    </ul>
+                    <div class="price">€35.99 <span>€39.99</span> mensal</div>
+                    
+                    <a href="#" class="btn">adquirir plano</a>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-medal"></i>
+                <div class="content">
+                    <h3>Virtualização</h3>
+                    
+                    <ul>
+                        <li>HYPER-V</li> 
+                        <li>Implantação</li>
+                        <li>Gerenciamento</li>
+                        <li>Alta Disponibilidade</li>
+                        <li>Descontos de até <span>10% </span> em serviços e novas Implantações</li>
+                    </ul>
+                    <div class="price">€35.99 <span>€39.99</span> mensal</div>
+                    
+                    <a href="#" class="btn">adquirir plano</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end service-->
+
+    <!--CONTRATO DE TI / footer-->
+    <section class="newsletter" id="newsletter" >
+        <div class="content">
+            <h1 class="heading">CONTRATO DE SUPORTE <span>EM TI</span> </h1>
+            
+            <h3>Destacamos como principais Serviços de nossa empresa:</h3>
+            <ul>
+                <li>Otimização de segurança das Informações com aplicativos especiais contra vírus e Spywares.</li>
+                <li>Padronização de rede local, com soluções de organização para melhor gerenciamento e automação.</li>
+                <li>Soluções automatizadas de serviços como backup de suas informações.</li>
+                <li>Substituição de itens de hardware com faturamento em até 30 dias.</li>
+                <li>Contratos flexíveis baseados nas necessidades da empresa.</li>
+                <li>Suporte “help-desk” em tempo real por telefone ou Internet.</li>
+                <li>Consultoria e soluções personalizadas.</li>
+                <li>Apresentação de novas tecnologias e soluções do mundo da Informática que se atualiza constantemente.</li>
+                <li>Manutenção de rede local com cabeamento estruturado ou sem fio (wireless).</li>
+                <li>Configuração de estações e servidores dentro ou fora de domínio, com compartilhamento de internet, periféricos e recursos.</li>
+                <li> Plano de manutenção das estações.</li>
+                <li>Padronização dos softwares instalados de acordo com o plano de contingência.</li>
+                <li>Formatação das estações sem custo e de acordo com o contrato.</li>
+
+            </ul>
+            
+        </div>
+    </section>
+
+    <!--section order suporte-->
+    <section class="order" id="order">
+        <h1 class="heading">SUPORTE<span> agora!</span></h1>
+        <div class="row">
+            <div class="image">
+                <form >
+                    <label class="lab1">PREENCHA O FORMULÁRIO DE <span>CHAMADO</span>  </label>
+                    <div class="inputBox">
+                        <input type="text" placeholder="empresa/cliente">
+                        <input type="email" placeholder="email">
+                    </div>
+    
+                    <div class="inputBox">
+                        <input type="number" placeholder="telefone">
+                        <input type="text" placeholder="chamado do tipo">
+                    </div>
+    
+                    <textarea placeholder="descrição do problema" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="enviar" class="btn">
+                </form>
+            </div>
+            <div class="image">
+                <form >
+                    <label class="lab1">PREENCHA O FORMULÁRIO DE <span>CONTATO</span>  </label>
+                    <div class="inputBox">
+                        <input type="text" placeholder="nome">
+                        <input type="email" placeholder="email">
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="number" placeholder="telefone">
+                        <input type="text" placeholder="tipo de serviço">
+                    </div>
+
+                    <textarea placeholder="qual serviço deseja" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="enviar" class="btn">
+                </form>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!--end section order-->
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Nossos contatos</h3>
+                <a href="#">suporte@radservices.com.br</a>
+                <a href="#">contato@radservices.com.br</a>
+                <a href="#">+55 84 3301-5268</a>
+                <a href="#">Rua Seridó, 356 - Petrópolis - Natal/RN - Sala 3</a>
+            </div>
+
+            <div class="box">
+                <h3>links rápidos</h3>
+                <a href="#home">home</a>
+                <a href="#services">serviços</a>
+                <a href="#products">planos</a>
+                <a href="#order">suporte</a>
+            </div>
+
+            <div class="box">
+                <h3>redes sociais</h3>
+                <a href="#">linkedIn</a>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+            </div>
+            <div class="credit">
+                criado por <span>Eliza césar</span> | todos os direitos reservados 2021
+            </div>
+        </div>
+            
+         
+    </section>
+ 
+     <!--js script-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html> 

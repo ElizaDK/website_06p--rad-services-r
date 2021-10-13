@@ -1,0 +1,164 @@
+
+/*
+*SECTION - PRODUTOS1 - MARCAS
+*/
+
+/*CONFIGURACOES SECTION -products1  */
+
+.products1 .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0 .3rem;
+}
+.products1 .box-container .box{
+  flex: 1 1 30rem;
+  position: relative; /*para a imagem ser absolute*/
+  overflow: hidden;
+  border: .1rem solid rgba(0,0,0,0.1);
+  cursor: pointer;
+  border-radius: .5rem;
+  text-align: center;
+  overflow: hidden;
+  background: #f9f9f9;
+}
+
+.products1 .box-container .box .content{
+  padding: .5rem;
+}
+
+.products1 .box-container .box img{
+  height: 10rem;
+  filter: drop-shadow(0 .5rem 1rem rgba(0,0,0,0.1));
+  margin: 3rem 1rem;
+}
+
+.products1 .box-container .box .icons a{
+height: 4.5rem;
+width: 5rem;
+line-height: 4.5rem;
+font-size: 2rem;
+color: var(--color-black);
+border: .1rem solid var(--color-black);
+border-radius: .5rem;
+background: #fff;
+margin-top: .5rem;
+}
+
+
+.products1 .box-container .box .content h3{
+ font-size: 2.5rem;
+ color: var(--color-black);
+}
+.products1 .box-container .box .content .stars{
+padding-bottom: 1rem;
+}
+.products1 .box-container .box .content .stars i{
+font-size: 1.7rem;
+color: goldenrod;
+}
+
+
+/*
+*SECTION - PRODUTOS - planos de ti e servidores
+*/
+
+/*CONFIGURACOES SECTION -products  */
+
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+.products .box-container .box{
+    flex: 1 1 30rem;
+    position: relative; /*para a imagem ser absolute*/
+    overflow: hidden;
+    border: .1rem solid rgba(0,0,0,0.1);
+    cursor: pointer;
+    border-radius: .5rem;
+    text-align: center;
+    overflow: hidden;
+    background: #fff;
+}
+
+.products .box-container .box .content{
+    padding: 2rem;
+ }
+ .products .box-container .box i{
+  font-size: 4rem;
+  padding-top: 2rem;
+  color: var(--color-greenish);
+}
+.products .box-container .box .content .a{
+  color: gray;
+}
+.products .box-container .box .content .m{
+  color: rgb(150, 46, 46);
+}
+.products .box-container .box .content .s{
+  color: silver;
+}
+.products .box-container .box .content .g{
+  color: gold;
+}
+.products .box-container .box img{
+    height: 10rem;
+    filter: drop-shadow(0 .5rem 1rem rgba(0,0,0,0.1));
+    margin: 8rem 2rem;
+ }
+ 
+.products .box-container .box .icons a{
+  height: 4.5rem;
+  width: 5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  color: var(--color-black);
+  border: .1rem solid var(--color-black);
+  border-radius: .5rem;
+  background: #fff;
+  margin-top: .5rem;
+}
+.products .box-container .box .icons a:hover{
+  background: var(--color-greenish);
+  color: #fff;
+}
+
+.products .box-container .box .content h3{
+   font-size: 3rem;
+   color: var(--color-black);
+}
+.products .box-container .box .content h4{
+  font-size: 2.5rem;
+  color: var(--color-black);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.products .box-container .box .content ul li{
+  font-size: 1.7rem;
+  line-height: 3rem;
+  color: var(--color-black);
+}
+.products .box-container .box .content li span{
+  color: var(--color-greenish);
+  font-weight: bolder;
+}
+.products .box-container .box .content .price{
+  font-size: 2.5rem;
+  color: var(--color-black);
+  font-weight: bolder;
+  padding: 1rem 0;
+}
+.products .box-container .box .content .price span{
+    font-size: 1.5rem;
+    color: var(--color-greenish);
+    text-decoration: line-through;
+}
+.products .box-container .box .content .stars{
+  padding-bottom: 1rem;
+}
+.products .box-container .box .content .stars i{
+  font-size: 1.7rem;
+  color: var(--color-greenish);
+}
